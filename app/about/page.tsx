@@ -23,12 +23,12 @@ export default function AboutPage() {
             <div className="grid md:grid-cols-3 gap-12 md:gap-16">
               {/* Avatar */}
               <div className="w-full md:col-span-1">
-                <div className="aspect-square border border-border bg-surface overflow-hidden flex items-center justify-center">
-                  <svg width="100%" height="100%" viewBox="0 0 400 400" className="w-full h-full">
-                    <rect width="400" height="400" fill="#161616" />
-                    <circle cx="200" cy="130" r="60" fill="#555555" />
-                    <path d="M 80 280 Q 80 200 200 200 Q 320 200 320 280 L 320 400 L 80 400 Z" fill="#555555" />
-                  </svg>
+                <div className="aspect-square border border-border bg-surface overflow-hidden">
+                  <img
+                    src="/founder.jpg"
+                    alt="Abhinav K.R"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
 
